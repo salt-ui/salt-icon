@@ -1,3 +1,19 @@
+
+3.2.2 / 2017-09-18
+================
+`feat`: salt-svg-loader 有调整，移除掉 svg 中的 class 属性
+
+3.2.1 / 2017-09-08
+================
+`feat`: salt-svg-loader 有调整，外层包了一层div，把 position: relative 包在内部
+
+3.2.0 / 2017-09-06
+================
+`feat`: 使用新的 salt-svg-loader 处理icon，涉及改动点如下：
+  1、remove svg4everybody
+  2、style inline 化，不依赖外部样式
+  3、最外层容器由 span 更换为 div
+
 3.1.3 / 2017-07-13
 ================
 `feat`: add option-checked
