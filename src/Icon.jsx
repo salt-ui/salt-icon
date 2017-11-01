@@ -6,17 +6,17 @@
  * All rights reserved.
  */
 import React from 'react';
+import iconMap from './iconMap';
 
 class Icon extends React.Component {
   render() {
-    try {
-      const CamelName = this.props.name.split('-').map(item => item[0].toUpperCase() + item.slice(1)).join('');
-      const Svg = require(`../lib/${CamelName}.js`);
+    const CamelName = this.props.name.split('-').map(item => item[0].toUpperCase() + item.slice(1)).join('');
+    const Svg = iconMap[CamelName];
+    if (Svg) {
       return <Svg {...this.props} />;
-    } catch (e) {
-      console.error(`cant't find svg: ${this.props.name}`);
-      return null;
     }
+    console.error(`cant't find svg: ${this.props.name}`);
+    return null;
   }
 }
 

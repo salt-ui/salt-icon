@@ -1,6 +1,6 @@
 {
   "name": "salt-icon",
-  "version": "3.2.3",
+  "version": "3.3.0",
   "description": "tingle-icon component for tingle.",
   "repository": "http://gitlab.alibaba-inc.com/tingle-ui/tingle-icon",
   "author": "eternalsky",
@@ -23,10 +23,11 @@
     "fastclick": "^1.0.6",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
-    "salt-tools": "~0.1.0"
+    "salt-tools": "~0.1.0",
+    "to-case": "^2.0.0"
   },
   "scripts": {
-    "start": "salt-tools run icon-make-js && salt-tools run icon-build && salt-tools run start",
+    "start": "node genIconMap.js && salt-tools run icon-make-js && salt-tools run icon-build && salt-tools run start",
     "build": "salt-tools run icon-build",
     "pub": "salt-tools run icon-publish",
     "dep": "salt-tools run dep",
