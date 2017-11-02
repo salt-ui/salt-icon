@@ -4,7 +4,7 @@ const to = require('to-case');
 const list = fs.readdirSync('./src/svg/');
 const message = `${list.map((comp) => {
   const CompName = to.pascal(comp.split('.')[0]);
-  return `import ${CompName} from './lib/${CompName}';`;
+  return `import ${CompName} from '../lib/${CompName}';`;
 }).join('\n')}
 
 export default {
