@@ -2,7 +2,7 @@
 3.4.0 / 2017-11-23
 ================
 
-`feat`: gingle icon can be got from Icon varibles like `import { User } from 'salt-icon'`
+`feat`: single icon can be got from Icon varibles like `import { User } from 'salt-icon'`
 
 3.3.0 / 2017-11-01
 ================
