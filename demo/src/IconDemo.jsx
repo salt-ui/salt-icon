@@ -8,6 +8,8 @@
 const React = require('react');
 const Icon = require('../../src');
 const SymbolIcon = require('../../src/Symbol');
+const { User } = Icon;
+const Cross = require('../../lib/Cross');
 
 const make2dArr = (arr = []) => {
   const newArr = [];
@@ -26,7 +28,6 @@ const make2dArr = (arr = []) => {
 };
 
 class Demo extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -129,6 +130,10 @@ class Demo extends React.Component {
         </div>
         <div className="demo-icon-title">使用 Symbol</div>
         <SymbolIcon name="field-required" fill="#e65100" />
+        <div className="demo-icon-title">使用 Icon.Xxx</div>
+        <User />
+        <div className="demo-icon-title">使用 /lib/Xxx</div>
+        <Cross />
       </div>
     );
   }

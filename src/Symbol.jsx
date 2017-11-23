@@ -5,7 +5,6 @@ import svg4everybody from 'svg4everybody';
 const webkitUA = /\bAppleWebKit\/(\d+)\b/;
 
 class Symbol extends React.Component {
-
   componentDidMount() {
     const webkitUAVersion = (navigator.userAgent.match(webkitUA) || [])[1];
     svg4everybody({

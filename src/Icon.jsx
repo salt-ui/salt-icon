@@ -48,4 +48,9 @@ Icon.propTypes = {
 
 Icon.displayName = 'Icon';
 
+for (const icon of Object.keys(iconMap)) {
+  Icon[icon] = iconMap[icon];
+}
+
+window.Icon = Icon;
 export default Icon;
