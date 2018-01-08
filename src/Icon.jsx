@@ -6,6 +6,7 @@
  * All rights reserved.
  */
 import React from 'react';
+import PropTypes from 'prop-types';
 import iconMap from './iconMap';
 
 class Icon extends React.Component {
@@ -32,18 +33,18 @@ Icon.defaultProps = {
 
 // http://facebook.github.io/react/docs/reusable-components.html
 Icon.propTypes = {
-  className: React.PropTypes.string,
-  name: React.PropTypes.string.isRequired,
-  width: React.PropTypes.oneOfType([
-    React.PropTypes.string,
-    React.PropTypes.number,
+  className: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  width: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
   ]),
-  height: React.PropTypes.oneOfType([
-    React.PropTypes.string,
-    React.PropTypes.number,
+  height: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
   ]),
-  fill: React.PropTypes.string,
-  onClick: React.PropTypes.func,
+  fill: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 Icon.displayName = 'Icon';

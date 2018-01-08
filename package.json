@@ -17,12 +17,14 @@
   ],
   "dependencies": {
     "classnames": "~2.2.3",
-    "svg4everybody": "^2.1.8"
+    "prop-types": "15.x",
+    "svg4everybody": "^2.1.8",
+    "to-case": "^2.0.0"
   },
   "devDependencies": {
     "fastclick": "^1.0.6",
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8",
+    "react": "15.x",
+    "react-dom": "15.x",
     "salt-tools": "~0.1.0",
     "to-case": "^2.0.0"
   },
