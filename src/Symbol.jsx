@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import svg4everybody from 'svg4everybody';
 
@@ -18,7 +19,7 @@ class Symbol extends React.Component {
 
   render() {
     const t = this;
-    const { className, name, onClick, ...others } = t.props;
+    const { className, name, onClick, prefixCls, ...others } = t.props;
 
     return (
       <div
@@ -48,13 +49,13 @@ Symbol.defaultProps = {
 
 // http://facebook.github.io/react/docs/reusable-components.html
 Symbol.propTypes = {
-  className: React.PropTypes.string,
-  prefixCls: React.PropTypes.string,
-  name: React.PropTypes.string.isRequired,
-  width: React.PropTypes.number,
-  height: React.PropTypes.number,
-  fill: React.PropTypes.string,
-  onClick: React.PropTypes.func,
+  className: PropTypes.string,
+  prefixCls: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  width: PropTypes.number,
+  height: PropTypes.number,
+  fill: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 Symbol.displayName = 'Symbol';
