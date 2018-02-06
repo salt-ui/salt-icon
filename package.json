@@ -1,6 +1,6 @@
 {
   "name": "salt-icon",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "description": "tingle-icon component for tingle.",
   "repository": "http://gitlab.alibaba-inc.com/tingle-ui/tingle-icon",
   "author": "eternalsky",
@@ -21,8 +21,8 @@
   },
   "devDependencies": {
     "fastclick": "^1.0.6",
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8",
+    "react": "15.x",
+    "react-dom": "15.x",
     "salt-tools": "~0.1.0",
     "to-case": "^2.0.0"
   },

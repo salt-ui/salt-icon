@@ -94,7 +94,6 @@ class Demo extends React.Component {
   }
 
   render() {
-    console.log(make2dArr(this.state.icons));
     return (
       <div>
         <div className="t-P20 t-FAC">
@@ -102,10 +101,10 @@ class Demo extends React.Component {
         </div>
         <div className="demo-icon-title">单色SVG图标</div>
         <div className="demo-grid">
-          {make2dArr(this.state.icons).map(icons => (
-            <div className="demo-grid-row">
-              {icons.map(icon => (
-                <div className="demo-grid-cell">
+          {make2dArr(this.state.icons).map((icons, index) => (
+            <div className="demo-grid-row" key={index}>
+              {icons.map((icon, j) => (
+                <div className="demo-grid-cell" key={j}>
                   <Icon name={icon} />
                 </div>
               ))}
@@ -122,7 +121,7 @@ class Demo extends React.Component {
               { name: 'toast-success', fill: '#942a09' },
               { name: 'plus-circle', fill: '#e65100' },
             ].map(icon => (
-              <div className="demo-grid-cell">
+              <div className="demo-grid-cell" key={icon.name}>
                 <Icon name={icon.name} fill={icon.fill} />
               </div>
             ))}
