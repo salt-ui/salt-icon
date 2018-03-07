@@ -1,4 +1,8 @@
 
+3.5.0 / 2018-03-07
+================
+* `fix`: `for ... of ...` syntax will cause error in lower version android (4.4.4)
+
 3.4.0 / 2017-11-23
 ================
 
