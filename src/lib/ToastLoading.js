@@ -1,5 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
+import PropTypes from 'prop-types';
 
 class IconToastLoading extends React.Component {
   render() {
@@ -25,18 +26,18 @@ IconToastLoading.defaultProps = {
 
 // http://facebook.github.io/react/docs/reusable-components.html
 IconToastLoading.propTypes = {
-  className: React.PropTypes.string,
-  name: React.PropTypes.string.isRequired,
-  width: React.PropTypes.oneOfType([
-    React.PropTypes.string,
-    React.PropTypes.number,
+  className: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  width: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
   ]),
-  height: React.PropTypes.oneOfType([
-    React.PropTypes.string,
-    React.PropTypes.number,
+  height: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
   ]),
-  fill: React.PropTypes.string,
-  onClick: React.PropTypes.func,
+  fill: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 IconToastLoading.displayName = 'IconToastLoading';
