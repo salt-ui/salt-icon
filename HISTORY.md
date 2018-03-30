@@ -1,4 +1,8 @@
 
+3.6.1 / 2018-03-30
+================
+* `fix`: remove useless bundle size
+
 3.6.0 / 2018-03-07
 ================
 * `fix`: `for ... of ...` syntax will cause error in lower version android (4.4.4)
