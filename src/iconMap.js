@@ -17,6 +17,17 @@ import FaceSadLine from '../lib/FaceSadLine';
 import FaceSmileFull from '../lib/FaceSmileFull';
 import FaceSmileLine from '../lib/FaceSmileLine';
 import FieldRequired from '../lib/FieldRequired';
+import FileEmpty from '../lib/FileEmpty';
+import FileExcel from '../lib/FileExcel';
+import FileMusic from '../lib/FileMusic';
+import FilePdf from '../lib/FilePdf';
+import FilePicture from '../lib/FilePicture';
+import FilePowerpoint from '../lib/FilePowerpoint';
+import FileText from '../lib/FileText';
+import FileVideo from '../lib/FileVideo';
+import FileWord from '../lib/FileWord';
+import FileXml from '../lib/FileXml';
+import FileZip from '../lib/FileZip';
 import InfoCircle from '../lib/InfoCircle';
 import InfoRound from '../lib/InfoRound';
 import LoadingRound from '../lib/LoadingRound';
@@ -70,6 +81,17 @@ export default {
   FaceSmileFull,
   FaceSmileLine,
   FieldRequired,
+  FileEmpty,
+  FileExcel,
+  FileMusic,
+  FilePdf,
+  FilePicture,
+  FilePowerpoint,
+  FileText,
+  FileVideo,
+  FileWord,
+  FileXml,
+  FileZip,
   InfoCircle,
   InfoRound,
   LoadingRound,
