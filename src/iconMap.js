@@ -45,6 +45,7 @@ import PlusCircle from '../lib/PlusCircle';
 import PlusRound from '../lib/PlusRound';
 import PlusThin from '../lib/PlusThin';
 import Plus from '../lib/Plus';
+import Refresh from '../lib/Refresh';
 import Search from '../lib/Search';
 import Setting from '../lib/Setting';
 import StarFull from '../lib/StarFull';
@@ -109,6 +110,7 @@ export default {
   PlusRound,
   PlusThin,
   Plus,
+  Refresh,
   Search,
   Setting,
   StarFull,
