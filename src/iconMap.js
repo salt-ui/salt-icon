@@ -28,6 +28,7 @@ import FileVideo from '../lib/FileVideo';
 import FileWord from '../lib/FileWord';
 import FileXml from '../lib/FileXml';
 import FileZip from '../lib/FileZip';
+import Filter from '../lib/Filter';
 import InfoCircle from '../lib/InfoCircle';
 import InfoRound from '../lib/InfoRound';
 import LoadingRound from '../lib/LoadingRound';
@@ -93,6 +94,7 @@ export default {
   FileWord,
   FileXml,
   FileZip,
+  Filter,
   InfoCircle,
   InfoRound,
   LoadingRound,

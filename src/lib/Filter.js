@@ -1,19 +1,19 @@
 import React from 'react';
 import classnames from 'classnames';
 
-class IconLock extends React.Component {
+class IconFilter extends React.Component {
   render() {
     try {
-      const Svg = require('../svg/lock.svg');
+      const Svg = require('../svg/filter.svg');
       return <Svg {...this.props} />
     } catch(e) {
-      console.error(`cant't find svg: lock`);
+      console.error(`cant't find svg: filter`);
       return null;
     }
   }
 }
 
-IconLock.defaultProps = {
+IconFilter.defaultProps = {
   className: '',
   name: '',
   width: '32px',
@@ -24,7 +24,7 @@ IconLock.defaultProps = {
 
 
 // http://facebook.github.io/react/docs/reusable-components.html
-IconLock.propTypes = {
+IconFilter.propTypes = {
   className: React.PropTypes.string,
   name: React.PropTypes.string.isRequired,
   width: React.PropTypes.oneOfType([
@@ -39,6 +39,6 @@ IconLock.propTypes = {
   onClick: React.PropTypes.func,
 };
 
-IconLock.displayName = 'IconLock';
+IconFilter.displayName = 'IconFilter';
 
-export default IconLock;
+export default IconFilter;

@@ -70,6 +70,7 @@ class Demo extends React.Component {
         'file-word',
         'file-xml',
         'file-zip',
+        'filter',
         'info-circle',
         'info-round',
         'loading-round',

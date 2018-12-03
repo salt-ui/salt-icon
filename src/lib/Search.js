@@ -1,6 +1,5 @@
 import React from 'react';
 import classnames from 'classnames';
-import PropTypes from 'prop-types';
 
 class IconSearch extends React.Component {
   render() {
@@ -26,18 +25,18 @@ IconSearch.defaultProps = {
 
 // http://facebook.github.io/react/docs/reusable-components.html
 IconSearch.propTypes = {
-  className: PropTypes.string,
-  name: PropTypes.string.isRequired,
-  width: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.number,
+  className: React.PropTypes.string,
+  name: React.PropTypes.string.isRequired,
+  width: React.PropTypes.oneOfType([
+    React.PropTypes.string,
+    React.PropTypes.number,
   ]),
-  height: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.number,
+  height: React.PropTypes.oneOfType([
+    React.PropTypes.string,
+    React.PropTypes.number,
   ]),
-  fill: PropTypes.string,
-  onClick: PropTypes.func,
+  fill: React.PropTypes.string,
+  onClick: React.PropTypes.func,
 };
 
 IconSearch.displayName = 'IconSearch';
