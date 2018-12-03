@@ -1,5 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
+import PropTypes from 'prop-types';
 
 class IconCross extends React.Component {
   render() {
@@ -25,18 +26,18 @@ IconCross.defaultProps = {
 
 // http://facebook.github.io/react/docs/reusable-components.html
 IconCross.propTypes = {
-  className: React.PropTypes.string,
-  name: React.PropTypes.string.isRequired,
-  width: React.PropTypes.oneOfType([
-    React.PropTypes.string,
-    React.PropTypes.number,
+  className: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  width: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
   ]),
-  height: React.PropTypes.oneOfType([
-    React.PropTypes.string,
-    React.PropTypes.number,
+  height: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
   ]),
-  fill: React.PropTypes.string,
-  onClick: React.PropTypes.func,
+  fill: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 IconCross.displayName = 'IconCross';
