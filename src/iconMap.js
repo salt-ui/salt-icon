@@ -57,7 +57,6 @@ import Forwrad from '../lib/Forwrad';
 import Help from '../lib/Help';
 import Hide from '../lib/Hide';
 import Holiday from '../lib/Holiday';
-import I18n from '../lib/I18n';
 import Important from '../lib/Important';
 import InfoCircle from '../lib/InfoCircle';
 import InfoRound from '../lib/InfoRound';
@@ -190,7 +189,6 @@ export default {
   Help,
   Hide,
   Holiday,
-  I18n,
   Important,
   InfoCircle,
   InfoRound,
