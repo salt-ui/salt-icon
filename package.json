@@ -30,6 +30,7 @@
   "scripts": {
     "start": "node genIconMap.js && salt-tools run icon-make-js && salt-tools run icon-build && salt-tools run start",
     "build": "salt-tools run icon-build",
+    // 重要！！！发布后必须让乐高重新打包才能生效，否则将导致线上故障
     "pub": "salt-tools run icon-publish",
     "dep": "salt-tools run dep",
     "tnpm-dep": "salt-tools run tnpm-dep",
