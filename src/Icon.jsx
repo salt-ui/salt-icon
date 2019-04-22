@@ -31,7 +31,7 @@ Icon.defaultProps = {
 };
 
 
-// http://facebook.github.io/react/docs/reusable-components.html
+// https://facebook.github.io/react/docs/reusable-components.html
 Icon.propTypes = {
   className: PropTypes.string,
   name: PropTypes.string.isRequired,

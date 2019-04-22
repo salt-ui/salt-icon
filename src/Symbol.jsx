@@ -48,7 +48,7 @@ Symbol.defaultProps = {
 };
 
 
-// http://facebook.github.io/react/docs/reusable-components.html
+// https://facebook.github.io/react/docs/reusable-components.html
 Symbol.propTypes = {
   className: PropTypes.string,
   prefixCls: PropTypes.string,
