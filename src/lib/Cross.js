@@ -24,7 +24,7 @@ IconCross.defaultProps = {
 };
 
 
-// http://facebook.github.io/react/docs/reusable-components.html
+// https://facebook.github.io/react/docs/reusable-components.html
 IconCross.propTypes = {
   className: PropTypes.string,
   name: PropTypes.string.isRequired,

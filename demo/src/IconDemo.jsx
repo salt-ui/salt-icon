@@ -169,7 +169,12 @@ class Demo extends React.Component {
         'link',
         'pie',
         'flow',
-        'people'
+        'people',
+        'youxuanzhuan',
+        'zuoxuanzhuan',
+        'zhankai1',
+        'zhedie',
+        'minus'
       ],
     };
   }

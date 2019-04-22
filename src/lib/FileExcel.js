@@ -24,7 +24,7 @@ IconFileExcel.defaultProps = {
 };
 
 
-// http://facebook.github.io/react/docs/reusable-components.html
+// https://facebook.github.io/react/docs/reusable-components.html
 IconFileExcel.propTypes = {
   className: PropTypes.string,
   name: PropTypes.string.isRequired,

@@ -24,7 +24,7 @@ IconNotebook.defaultProps = {
 };
 
 
-// http://facebook.github.io/react/docs/reusable-components.html
+// https://facebook.github.io/react/docs/reusable-components.html
 IconNotebook.propTypes = {
   className: PropTypes.string,
   name: PropTypes.string.isRequired,

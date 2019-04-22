@@ -70,6 +70,7 @@ import Menu from '../lib/Menu';
 import MinusCircle from '../lib/MinusCircle';
 import MinusRound from '../lib/MinusRound';
 import MinusThin from '../lib/MinusThin';
+import Minus from '../lib/Minus';
 import More from '../lib/More';
 import More1 from '../lib/More1';
 import NavDefault from '../lib/NavDefault';
@@ -128,6 +129,10 @@ import WarnLine from '../lib/WarnLine';
 import WarningFull from '../lib/WarningFull';
 import Warning from '../lib/Warning';
 import Welfare from '../lib/Welfare';
+import Youxuanzhuan from '../lib/Youxuanzhuan';
+import Zhankai1 from '../lib/Zhankai1';
+import Zhedie from '../lib/Zhedie';
+import Zuoxuanzhuan from '../lib/Zuoxuanzhuan';
 
 export default {
   About,
@@ -202,6 +207,7 @@ export default {
   MinusCircle,
   MinusRound,
   MinusThin,
+  Minus,
   More,
   More1,
   NavDefault,
@@ -260,4 +266,8 @@ export default {
   WarningFull,
   Warning,
   Welfare,
+  Youxuanzhuan,
+  Zhankai1,
+  Zhedie,
+  Zuoxuanzhuan,
 };
