@@ -24,7 +24,7 @@ IconScaleUp.defaultProps = {
 };
 
 
-// https://facebook.github.io/react/docs/reusable-components.html
+// http://facebook.github.io/react/docs/reusable-components.html
 IconScaleUp.propTypes = {
   className: PropTypes.string,
   name: PropTypes.string.isRequired,

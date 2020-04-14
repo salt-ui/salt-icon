@@ -98,6 +98,7 @@ import Printer from '../lib/Printer';
 import Refresh from '../lib/Refresh';
 import ReservationSuccess from '../lib/ReservationSuccess';
 import Reservation from '../lib/Reservation';
+import Rubbish from '../lib/Rubbish';
 import Save from '../lib/Save';
 import ScaleDown from '../lib/ScaleDown';
 import ScaleUp from '../lib/ScaleUp';
@@ -235,6 +236,7 @@ export default {
   Refresh,
   ReservationSuccess,
   Reservation,
+  Rubbish,
   Save,
   ScaleDown,
   ScaleUp,

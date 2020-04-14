@@ -24,7 +24,7 @@ IconFileText.defaultProps = {
 };
 
 
-// https://facebook.github.io/react/docs/reusable-components.html
+// http://facebook.github.io/react/docs/reusable-components.html
 IconFileText.propTypes = {
   className: PropTypes.string,
   name: PropTypes.string.isRequired,

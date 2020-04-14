@@ -24,7 +24,7 @@ IconBadge.defaultProps = {
 };
 
 
-// https://facebook.github.io/react/docs/reusable-components.html
+// http://facebook.github.io/react/docs/reusable-components.html
 IconBadge.propTypes = {
   className: PropTypes.string,
   name: PropTypes.string.isRequired,

@@ -24,7 +24,7 @@ IconMore1.defaultProps = {
 };
 
 
-// https://facebook.github.io/react/docs/reusable-components.html
+// http://facebook.github.io/react/docs/reusable-components.html
 IconMore1.propTypes = {
   className: PropTypes.string,
   name: PropTypes.string.isRequired,
