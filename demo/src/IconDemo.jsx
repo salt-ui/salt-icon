@@ -174,7 +174,8 @@ class Demo extends React.Component {
         'zuoxuanzhuan',
         'zhankai1',
         'zhedie',
-        'minus'
+        'minus',
+        'rubbish'
       ],
     };
   }
